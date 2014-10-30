@@ -15,13 +15,13 @@
 			  	<jsp:include page="navbar.jsp" />
 			</td>
 			<td style="width:75%;height:80%;">
-				<jsp:forward page="forward2.jsp" />
+				<jsp:forward page="forward2.jsp" >
 					<jsp:param value="10110101" name="secretCode"/>
 					<jsp:param value="webuser" name="uid"/>
 				</jsp:forward>
 			</td>
 		</tr>
 	</table>
-	<jsp:include page="footer.jsp" /></jsp:include>
+	<jsp:include page="footer.jsp" />
 </body>
 </html>
