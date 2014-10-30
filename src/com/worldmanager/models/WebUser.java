@@ -8,44 +8,37 @@ public class WebUser implements Serializable {
 	private String uid;
 	private String pwd;
 	private int authLevel;
-	
-	public WebUser()
-	{
-		//do nothing
+
+	public WebUser() {
+		// do nothing
 	}
-	
-	public String getUserId()
-	{
+
+	public String getUserId() {
 		return uid;
 	}
-	public void setUserId(String value)
-	{
+
+	public void setUserId(String value) {
 		uid = value;
 	}
-	
-	public String getPassword()
-	{
+
+	public String getPassword() {
 		return pwd;
 	}
-	public void setPassword(String value)
-	{
+
+	public void setPassword(String value) {
 		pwd = value;
 	}
-	
-	public int getAuthLevel()
-	{
+
+	public int getAuthLevel() {
 		return authLevel;
 	}
-	public void setAuthLevel(int value)
-	{
+
+	public void setAuthLevel(int value) {
 		authLevel = value;
 	}
-	
-	public String toString()
-	{
-		return String.format("UID: %s\tPWD: %s\tAuthLevel: %d\n"
-					, getUserId()
-					, getPassword()
-					, getAuthLevel());
+
+	public String toString() {
+		return String.format("UID: %s\tPWD: %s\tAuthLevel: %d\n", getUserId(),
+				getPassword(), getAuthLevel());
 	}
 }
