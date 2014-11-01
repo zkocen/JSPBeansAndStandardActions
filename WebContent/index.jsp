@@ -16,6 +16,19 @@
 			</td>
 			<td style="width:75%;height:80%;">
 				<h1>Welcome to the World Managment System</h1>
+				Hello ${initParam.dbuserid}<br>
+				I see you like to use <br><strong>${header["user-agent"]}</strong></br> to browse!
+				<br><br>${pageContext.request.contextPath}
+				<br>
+				<br><H1>TMI</H1>
+				${headerValues}<br><br><br>
+				<h2>The application variables tell us:</h2>
+				<span>UserID:&nbsp;</span>${applicationScope.uid}
+				<br>
+				<span>PWD:&nbsp;</span>${applicationScope.pwd}
+				<br>
+				
+				
 			</td>
 		</tr>
 	</table>
