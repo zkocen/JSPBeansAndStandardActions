@@ -28,7 +28,18 @@
 				<span>PWD:&nbsp;</span>${applicationScope.pwd}
 				<br>
 				
-				
+				<% 
+					session.setAttribute("uid", "sesUser");
+					session.setAttribute("pwd", "12sesUser");
+					
+					int cookieLife = 3600*24*7;
+					Cookie uidCook = new Cookie("credentials_uid","cookieUser");
+					uidCook.setMaxAge(cookieLife);
+					response.addCookie(uidCook);
+					Cookie pwdCook = new Cookie("credentials_pwd","cookieUserPWD");
+					uidCook.setMaxAge(cookieLife);
+					response.addCookie(pwdCook);					
+				%>
 			</td>
 		</tr>
 	</table>
