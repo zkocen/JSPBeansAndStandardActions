@@ -8,7 +8,7 @@
 <title>Request parameters</title>
 </head>
 <body>
-	<jsp:forward page="RequestParameters2.jsp" />
+	<jsp:forward page="RequestParameters2.jsp">
 		<jsp:param value="rpuid" name="uid"/>
 		<jsp:param value="rppwd" name="pwd"/>
 	</jsp:forward>
