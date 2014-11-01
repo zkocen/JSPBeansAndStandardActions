@@ -40,6 +40,9 @@
 					uidCook.setMaxAge(cookieLife);
 					response.addCookie(pwdCook);					
 				%>
+				
+				</br>
+				</br>
 			</td>
 		</tr>
 	</table>
