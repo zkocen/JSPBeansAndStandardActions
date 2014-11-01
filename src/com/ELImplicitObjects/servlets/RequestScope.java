@@ -22,5 +22,6 @@ public class RequestScope extends HttpServlet {
     	request.setAttribute("uid", "reqUser");
     	request.setAttribute("pwd", "reqUserPwd");
     	RequestDispatcher rd = request.getRequestDispatcher("RequestScope.jsp");
+    	rd.forward(request, response);
     }
 }

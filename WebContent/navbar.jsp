@@ -4,7 +4,7 @@
 <a href="SetBeansWithParameters.jsp">JSP Set/Get/Use Bean with Parameters</a><br>
 <a href="SetBeansAllPropertiesWithParameters2.jsp">JSP Set/Get/Use Bean with All Properties Parameters</a><br>
 <br>
-<a href="RequestParameters.jsp">Request Parameters</a>&nbsp;&nbsp;
-<a href="RequestScope.do">Request Scope</a>&nbsp;&nbsp;
-<a href="SessionScope.jsp">Session Scope</a>&nbsp;&nbsp;
-<a href="Cookies.jsp">Cookies</a>&nbsp;&nbsp;
+<a href="RequestParameters.jsp">Request Parameters</a>&nbsp;&nbsp;<br>
+<a href="RequestScope.do">Request Scope</a>&nbsp;&nbsp;<br>
+<a href="SessionScope.jsp">Session Scope</a>&nbsp;&nbsp;<br>
+<a href="Cookies.jsp">Cookies</a>&nbsp;&nbsp;<br>
