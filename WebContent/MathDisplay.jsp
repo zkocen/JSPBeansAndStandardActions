@@ -28,6 +28,10 @@
 	%>
 	
 	<span>Results:</span><br>
-	<span>Circle area = ${pageScope.PI} * ${pageScope.radious}^2</span>&nbsp;
+	<span>Circle area: ${pageScope.PI} * ${pageScope.radious}^2</span>&nbsp;
+		<strong>= ${pageScope.PI * pageScope.radious * pageScope.radious}</strong><br>
+	<span>Square area: ${pageScope.length} * ${pageScope.length}</span>&nbsp
+		<strong>= ${pageScope.length * pageScope.length}</strong><br>
+		
 </body>
 </html>
