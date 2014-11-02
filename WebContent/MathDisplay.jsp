@@ -12,6 +12,9 @@
 	<span>2 + 2 = ${2 + 2}</span><br>
 	<span>2 * 6 = ${2 * 6}</span><br>
 	<span>16 / 8 = ${16 / 8}</span><br>
-	<span>Is 32 > 50? -- ${32 > 50}</span><br></br>
+	<span>Is 32 > 50? -- ${32 > 50}</span><br>
+	<span>Is 32 > 50?</span><input type="text" value="${32 gt 50}" /><br>
+	<span>Is 100 < 1000? -- ${100 < 1000}</span><br>
+	<span>Is 100 < 1000</span><input type="text" value="${100 lt 1000}" /><br>
 </body>
 </html>
