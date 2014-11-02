@@ -19,5 +19,15 @@
 	<span>100 == 100</span><input type="text" value="${100 eq 100}" /><br>
 	<span>Is (100 < 1000 && 10 < 100) -- ${(100 < 1000 && 10 < 100)}</span><br>
 	<span>Is (100 > 1000 || 10 < 100) -- ${(100 > 1000 || 10 < 100)}</span><br>
+	
+	<% 
+		pageContext.setAttribute("PI", 3.14159);
+		pageContext.setAttribute("radious", 2);
+		pageContext.setAttribute("width", 40);
+		pageContext.setAttribute("length", 10);
+	%>
+	
+	<span>Results:</span><br>
+	<span>Circle area = ${pageScope.PI} * ${pageScope.radious}^2</span>&nbsp;
 </body>
 </html>
