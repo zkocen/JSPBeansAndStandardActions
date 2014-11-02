@@ -32,6 +32,8 @@
 		<strong>= ${pageScope.PI * pageScope.radious * pageScope.radious}</strong><br>
 	<span>Square area: ${pageScope.length} * ${pageScope.length}</span>&nbsp
 		<strong>= ${pageScope.length * pageScope.length}</strong><br>
+	<span>Rectangle Area: ${pageScope.length} * ${pageScope.width}</span>&nbsp;
+		<strong>= ${pageScope.length * pageScope.width}</strong>
 		
 </body>
 </html>
