@@ -8,3 +8,5 @@
 <a href="RequestScope.do">Request Scope</a>&nbsp;&nbsp;<br>
 <a href="SessionScope.jsp">Session Scope</a>&nbsp;&nbsp;<br>
 <a href="Cookies.jsp">Cookies</a>&nbsp;&nbsp;<br>
+<br>
+<a href="MathDisplay.jsp">Math Display</a>&nbsp;&nbsp;<br>
