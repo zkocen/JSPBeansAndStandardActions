@@ -16,5 +16,8 @@
 	<span>Is 32 > 50?</span><input type="text" value="${32 gt 50}" /><br>
 	<span>Is 100 < 1000? -- ${100 < 1000}</span><br>
 	<span>Is 100 < 1000</span><input type="text" value="${100 lt 1000}" /><br>
+	<span>100 == 100</span><input type="text" value="${100 eq 100}" /><br>
+	<span>Is (100 < 1000 && 10 < 100) -- ${(100 < 1000 && 10 < 100)}</span><br>
+	<span>Is (100 > 1000 || 10 < 100) -- ${(100 > 1000 || 10 < 100)}</span><br>
 </body>
 </html>
