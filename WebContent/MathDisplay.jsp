@@ -9,5 +9,9 @@
 </head>
 <body>
 	<h1>EL math and Logic</h1>
+	<span>2 + 2 = ${2 + 2}</span><br>
+	<span>2 * 6 = ${2 * 6}</span><br>
+	<span>16 / 8 = ${16 / 8}</span><br>
+	<span>Is 32 > 50? -- ${32 > 50}</span><br></br>
 </body>
 </html>
